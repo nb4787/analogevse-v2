@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-stable)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.1-3-g963ef8bb5)")
 
   (general
-    (links 136)
-    (no_connects 0)
-    (area 100.229999 24.664999 193.995334 125.195001)
     (thickness 1.6)
     (drawings 11)
     (tracks 682)
@@ -63,11 +60,15 @@
     (pad_size 2 2)
     (pad_drill 0.8)
     (pad_to_mask_clearance 0)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFEFFED)
+    (visible_elements FFFCFFED)
     (pcbplotparams
       (layerselection 0x01060_80000000)
       (usegerberextensions true)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)
@@ -76,8 +77,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -89,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber))
+      (outputdirectory "gerber"))
   )
 
   (net 0 "")
@@ -237,7 +237,7 @@
     (descr "Condensateur polarise")
     (tags CP)
     (path /56485720)
-    (fp_text reference C1 (at 0 0 360) (layer F.SilkS)
+    (fp_text reference C1 (at 0 0) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value 330u/35V (at 0 -2.54 270) (layer F.SilkS) hide
@@ -316,7 +316,7 @@
     (descr "Condensateur polarise")
     (tags CP)
     (path /5648572D)
-    (fp_text reference C4 (at 0 0 360) (layer F.SilkS)
+    (fp_text reference C4 (at 0 0) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value 330u/35V (at 0 -2.54 270) (layer F.SilkS) hide
@@ -670,7 +670,7 @@
   (module mylib:Relay placed (layer F.Cu) (tedit 5B0B1A1B) (tstamp 5AF6F866)
     (at 176.149 32.131 270)
     (path /56485F21)
-    (fp_text reference K1 (at 6.985 0 360) (layer F.SilkS)
+    (fp_text reference K1 (at 6.985 0) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value Relay (at 13.97 0 270) (layer F.SilkS) hide
@@ -800,7 +800,7 @@
   (module mylib:Term-2pin (layer F.Cu) (tedit 5B538AB3) (tstamp 5AF6F8A4)
     (at 111.125 60.706 270)
     (path /5648510F)
-    (fp_text reference P6 (at 0 1.778 360) (layer F.SilkS)
+    (fp_text reference P6 (at 0 1.778) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value Rext (at 0 -5.08 270) (layer F.SilkS) hide
@@ -873,7 +873,7 @@
     (descr "Transistor TO18")
     (tags TO18)
     (path /5648585D)
-    (fp_text reference U1 (at -1.778 1.397 360) (layer F.SilkS)
+    (fp_text reference U1 (at -1.778 1.397) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value 78L12 (at -0.0762 -2.1844 270) (layer F.SilkS) hide
@@ -1595,7 +1595,7 @@
     (descr "Diode 3 pas")
     (tags "DIODE DEV")
     (path /5AFE085A)
-    (fp_text reference D7 (at 2.032 -1.524 360) (layer F.SilkS)
+    (fp_text reference D7 (at 2.032 -1.524) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value Blue (at 0 -2.54 90) (layer F.SilkS) hide
@@ -1702,7 +1702,7 @@
     (descr "Diode 3 pas")
     (tags "DIODE DEV")
     (path /5AF65438)
-    (fp_text reference D11 (at -1.778 -2.286 360) (layer F.SilkS)
+    (fp_text reference D11 (at -1.778 -2.286) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value Yellow (at 0 -2.54 90) (layer F.SilkS) hide
@@ -2098,7 +2098,7 @@
     (descr "14 pins DIL package, elliptical pads")
     (tags DIL)
     (path /564863A9)
-    (fp_text reference U3 (at 2.667 -0.127 360) (layer F.SilkS)
+    (fp_text reference U3 (at 2.667 -0.127) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_text value LM2901 (at 1.27 1.27 270) (layer F.SilkS) hide
@@ -2151,7 +2151,7 @@
     (descr "14 pins DIL package, elliptical pads")
     (tags DIL)
     (path /56484E4A)
-    (fp_text reference U5 (at -4.953 0 360) (layer F.SilkS)
+    (fp_text reference U5 (at -4.953 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_text value LM2901 (at 1.27 1.27 270) (layer F.SilkS) hide
@@ -2227,7 +2227,7 @@
   (gr_line (start 164.592 72.136) (end 164.592 66.5734) (angle 90) (layer F.SilkS) (width 0.4))
   (gr_line (start 137.541 77.978) (end 137.668 77.978) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 137.541 73.025) (end 137.541 77.978) (angle 90) (layer F.SilkS) (width 0.4))
-  (gr_text "analogevse.xyz\nv2.0.0 12/2018" (at 141.6304 44.1706) (layer B.Cu)
+  (gr_text "www.analogevse.xyz\nv2.0.0 01/2019" (at 141.6304 44.1706) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 104.14 24.765) (end 104.14 125.095) (angle 90) (layer Dwgs.User) (width 0.2))

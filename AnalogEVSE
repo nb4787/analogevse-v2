@@ -1,6 +1,6 @@
-Source,/Users/bwalter/Documents/Ladebox/analogevse/AnalogEVSE.sch
-Kicad Rev,Eeschema 4.0.2-stable
-Generated Date,2018 July 25, Wednesday 21:34:02
+Source,/Users/bwalter/Documents/Ladebox/analogevse-v2/AnalogEVSE.sch
+Kicad Rev,Eeschema (5.0.1-3-g963ef8bb5)
+Generated Date,2019 January 03, Thursday 14:16:32
 
 Title,AnalogEVSE 2.0.0
 Company,Not Set
@@ -9,67 +9,67 @@ Date Issue,2018-07-21
 Comment,Analog J1772 charge controller
 
 Reference,Value,Library,Library Ref
-U5,LM2901,AnalogEVSE-cache,LM339-RESCUE-AnalogEVSE
+U5,LM2901,AnalogEVSE-rescue,LM339-RESCUE-AnalogEVSE
 P6,Rext,AnalogEVSE,CONN_2
 D3,1N4148,AnalogEVSE,DIODE
-T1,12V/2VA,device,TRANSFO
-C10,22p,AnalogEVSE-cache,C-RESCUE-AnalogEVSE
-R10,10k,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-R12,1k,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-R11,10k,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-R13,56k,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-C8,100n,AnalogEVSE-cache,C-RESCUE-AnalogEVSE
+T1,12V/2VA,AnalogEVSE,TRANSFO
+C10,22p,AnalogEVSE-rescue,C-RESCUE-AnalogEVSE
+R10,10k,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+R12,1k,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+R11,10k,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+R13,56k,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+C8,100n,AnalogEVSE-rescue,C-RESCUE-AnalogEVSE
 P1,230V,AnalogEVSE,CONN_2
-F1,100mA,device,FUSE
-C1,330u/35V,AnalogEVSE-cache,CP1-RESCUE-AnalogEVSE
-C4,330u/35V,AnalogEVSE-cache,CP1-RESCUE-AnalogEVSE
-U2,79L12,regul,LM7912
-U1,78L12,regul,LM7812
-C2,100n,AnalogEVSE-cache,C-RESCUE-AnalogEVSE
-C5,100n,AnalogEVSE-cache,C-RESCUE-AnalogEVSE
-R1,2k2,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-R2,4k7,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-R3,5k6,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-R4,10k,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-K1,Relay,device,RELAY_2RT
-C13,100n,AnalogEVSE-cache,C-RESCUE-AnalogEVSE
-R19,1M,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
+F1,100mA,AnalogEVSE,FUSE
+C1,330u/35V,AnalogEVSE-rescue,CP1-RESCUE-AnalogEVSE
+C4,330u/35V,AnalogEVSE-rescue,CP1-RESCUE-AnalogEVSE
+U2,79L12,AnalogEVSE,LM7912
+U1,78L12,AnalogEVSE,LM7812
+C2,100n,AnalogEVSE-rescue,C-RESCUE-AnalogEVSE
+C5,100n,AnalogEVSE-rescue,C-RESCUE-AnalogEVSE
+R1,2k2,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+R2,4k7,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+R3,5k6,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+R4,10k,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+K1,Relay,AnalogEVSE,RELAY_2RT
+C13,100n,AnalogEVSE-rescue,C-RESCUE-AnalogEVSE
+R19,1M,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
 D12,1N4148,AnalogEVSE,DIODE
 D10,1N4148,AnalogEVSE,DIODE
-R18,10k,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-C12,100n,AnalogEVSE-cache,C-RESCUE-AnalogEVSE
-R14,1M,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-U3,LM2901,AnalogEVSE-cache,LM339-RESCUE-AnalogEVSE
+R18,10k,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+C12,100n,AnalogEVSE-rescue,C-RESCUE-AnalogEVSE
+R14,1M,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+U3,LM2901,AnalogEVSE-rescue,LM339-RESCUE-AnalogEVSE
 P4,Pilot,AnalogEVSE,CONN_2
 D6,1N4148,AnalogEVSE,DIODE
 P7,Power,AnalogEVSE,CONN_2
-R6,10k,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-R8,1M,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-P5,Status LEDs,AnalogEVSE-cache,CONN_3
+R6,10k,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+R8,1M,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+P5,Status LEDs,AnalogEVSE-rescue,CONN_3
 P3,Relay 1,AnalogEVSE,CONN_2
-C3,100n,AnalogEVSE-cache,C-RESCUE-AnalogEVSE
-P2,Relay 2,AnalogEVSE-cache,CONN_3
+C3,220n,AnalogEVSE-rescue,C-RESCUE-AnalogEVSE
+P2,Relay 2,AnalogEVSE-rescue,CONN_3
 U4,CD4060B,AnalogEVSE,4060
-Y1,4.096MHz,device,Crystal_Small
-C9,22p,AnalogEVSE-cache,C-RESCUE-AnalogEVSE
-R7,2k2,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-C11,100n,AnalogEVSE-cache,C-RESCUE-AnalogEVSE
+Y1,4.096MHz,Device,Crystal_Small
+C9,22p,AnalogEVSE-rescue,C-RESCUE-AnalogEVSE
+R7,2k2,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+C11,100n,AnalogEVSE-rescue,C-RESCUE-AnalogEVSE
 D2,1N4148,AnalogEVSE,DIODE
 D1,1N4148,AnalogEVSE,DIODE
-C7,220n,AnalogEVSE-cache,C-RESCUE-AnalogEVSE
-C6,47u/16V,AnalogEVSE-cache,CP1-RESCUE-AnalogEVSE
-R17,3k3,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-R9,3k3,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-D5,7.5V,device,ZENER
-D4,2.4V,device,ZENER
-D11,Yellow,AnalogEVSE-cache,LED-RESCUE-AnalogEVSE
+C7,220n,AnalogEVSE-rescue,C-RESCUE-AnalogEVSE
+C6,47u/16V,AnalogEVSE-rescue,CP1-RESCUE-AnalogEVSE
+R17,3k3,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+R9,3k3,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+D5,7.5V,AnalogEVSE-rescue,ZENER
+D4,2.4V,AnalogEVSE-rescue,ZENER
+D11,Yellow,AnalogEVSE-rescue,LED-RESCUE-AnalogEVSE
 Q1,BC337,AnalogEVSE,NPN
 Q2,BC557,AnalogEVSE,PNP
-R15,10k,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-R5,4k7,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-R16,10k,AnalogEVSE-cache,R-RESCUE-AnalogEVSE
-D9,Red,AnalogEVSE-cache,LED-RESCUE-AnalogEVSE
-D8,Green,AnalogEVSE-cache,LED-RESCUE-AnalogEVSE
-D7,Blue,AnalogEVSE-cache,LED-RESCUE-AnalogEVSE
+R15,10k,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+R5,4k7,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+R16,10k,AnalogEVSE-rescue,R-RESCUE-AnalogEVSE
+D9,Red,AnalogEVSE-rescue,LED-RESCUE-AnalogEVSE
+D8,Green,AnalogEVSE-rescue,LED-RESCUE-AnalogEVSE
+D7,Blue,AnalogEVSE-rescue,LED-RESCUE-AnalogEVSE
 Q3,BC337,AnalogEVSE,NPN
-RV1,47k,device,POT
+RV1,47k,AnalogEVSE-rescue,POT

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name AnalogEVSE-rescue)(type Legacy)(uri ${KIPRJMOD}/AnalogEVSE-rescue.lib)(options "")(descr ""))
+  (lib (name AnalogEVSE)(type Legacy)(uri ${KIPRJMOD}/AnalogEVSE.lib)(options "")(descr ""))
+)
