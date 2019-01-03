@@ -2227,7 +2227,7 @@
   (gr_line (start 164.592 72.136) (end 164.592 66.5734) (angle 90) (layer F.SilkS) (width 0.4))
   (gr_line (start 137.541 77.978) (end 137.668 77.978) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 137.541 73.025) (end 137.541 77.978) (angle 90) (layer F.SilkS) (width 0.4))
-  (gr_text "analogevse.xyz\nv2.0.0 12/2018" (at 141.6304 44.1706) (layer B.Cu)
+  (gr_text "www.analogevse.xyz\nv2.0.0 01/2019" (at 141.6304 44.1706) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 104.14 24.765) (end 104.14 125.095) (angle 90) (layer Dwgs.User) (width 0.2))

@@ -1,41 +1,39 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"C1,C4";"C5";2;"330u/35V";;;
-2;"C2,C5,C8,C11,C12,C13";"C2";6;"100n";;;
-3;"C3,C7";"C2";2;"220n";;;
-4;"C9,C10";"C2";2;"22p";;;
-5;"D1,D3,D6,D2,D10,D12";"D3";6;"1N4148";;;
-6;"F1";"Fuse-RM9";1;"100mA";;;
-7;"K1";"Relay";1;"Relay";;;
-8;"P1";"Term-2pin";1;"230V";;;
-9;"P2";"Term-3pin";1;"Relay 2";;;
-10;"P3";"Term-2pin";1;"Relay 1";;;
-11;"P4";"Term-2pin";1;"Pilot";;;
-12;"P5";"Term-3pin";1;"Status LEDs";;;
-13;"P6";"Term-2pin";1;"Rext";;;
-14;"P7";"Term-2pin";1;"Power";;;
-15;"Q1,Q3";"TO92";2;"BC337";;;
-16;"U1";"78L12";1;"78L12";;;
-17;"U2";"79L12";1;"79L12";;;
-18;"U4";"IC-DIP-16";1;"CD4060B";;;
-19;"Y1";"Crystal";1;"4.096MHz";;;
-20;"R1,R7";"R3.5";2;"2k2";;;
-21;"R2,R5";"R3.5";2;"4k7";;;
-22;"R3";"R3.5";1;"5k6";;;
-23;"R4,R6,R10,R11,R15,R16,R18";"R3.5";7;"10k";;;
-24;"R8,R14,R19";"R3.5";3;"1M";;;
-25;"R9,R17";"R3.5";2;"3k3";;;
-26;"R12";"R3.5";1;"1k";;;
-27;"R13";"R3.5";1;"56k";;;
-28;"C6";"C3-ROUND";1;"47u/16V";;;
-29;"D7";"LED-3";1;"Blue";;;
-30;"D8";"LED-3";1;"Green";;;
-31;"D9";"LED-3";1;"Red";;;
-32;"D11";"LED-3";1;"Yellow";;;
-33;"Q2";"TO92";1;"BC557";;;
-34;"D4";"D3-Zener";1;"2.4V";;;
-35;"D5";"D3-Zener";1;"7.5V";;;
-36;",,,";"DrillPad-3mm";4;"WireBridgePad";;;
-37;"RV1";"Trimpot3";1;"47k";;;
-38;",,,";"WireBridgePad";4;"WireBridgePad";;;
-39;"U3,U5";"IC-DIP-14-SHORT";2;"LM2901";;;
-40;"T1";"Printtrafo2VA-multi";1;"12V/2VA";;;
+Component;Quantity;Value
+C1,C4;2;330u/35V
+C2,C5,C8,C11,C12,C13;6;100n
+C3,C7;2;220n
+C9,C10;2;22p
+D1,D3,D6,D2,D10,D12;6;1N4148
+F1;1;100mA
+K1;1;Relay
+P1;1;230V
+P2;1;Relay 2
+P3;1;Relay 1
+P4;1;Pilot
+P5;1;Status LEDs
+P6;1;Rext
+P7;1;Power
+Q1,Q3;2;BC337
+U1;1;78L12
+U2;1;79L12
+U4;1;CD4060B
+Y1;1;4.096MHz
+R1,R7;2;2k2
+R2,R5;2;4k7
+R3;1;5k6
+R4,R6,R10,R11,R15,R16,R18;7;10k
+R8,R14,R19;3;1M
+R9,R17;2;3k3
+R12;1;1k
+R13;1;56k
+C6;1;47u/16V
+D7;1;Blue
+D8;1;Green
+D9;1;Red
+D11;1;Yellow
+Q2;1;BC557
+D4;1;2.4V
+D5;1;7.5V
+RV1;1;47k
+U3,U5;2;LM2901
+T1;1;12V/2VA

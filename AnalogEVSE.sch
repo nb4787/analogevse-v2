@@ -1650,4 +1650,14 @@ Wire Wire Line
 	5900 1700 7900 1700
 Wire Wire Line
 	5900 950  5900 800 
+Wire Notes Line
+	800  5600 1250 5600
+Wire Notes Line
+	1250 5600 1250 7200
+Wire Notes Line
+	1250 7200 800  7200
+Wire Notes Line
+	800  7200 800  5600
+Wire Notes Line
+	800  5750 1250 5750
 $EndSCHEMATC
