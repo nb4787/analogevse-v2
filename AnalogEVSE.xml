@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/Users/bwalter/Documents/Ladebox/analogevse-v2/AnalogEVSE.sch</source>
-    <date>2019 January 03, Thursday 14:16:32</date>
+    <date>2019 March 07, Thursday 17:02:55</date>
     <tool>Eeschema (5.0.1-3-g963ef8bb5)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>AnalogEVSE 2.0.0</title>
         <company/>
         <rev>2.0.0</rev>
-        <date>2018-07-21</date>
+        <date>2019-01-03</date>
         <source>AnalogEVSE.sch</source>
         <comment number="1" value="Analog J1772 charge controller"/>
         <comment number="2" value=""/>
@@ -314,7 +314,7 @@
       <tstamp>5741E4AC</tstamp>
     </comp>
     <comp ref="C3">
-      <value>220n</value>
+      <value>1u</value>
       <footprint>mylib:C2</footprint>
       <datasheet>~</datasheet>
       <libsource lib="AnalogEVSE-rescue" part="C-RESCUE-AnalogEVSE" description=""/>

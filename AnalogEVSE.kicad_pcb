@@ -6,7 +6,7 @@
     (tracks 682)
     (zones 0)
     (modules 72)
-    (nets 52)
+    (nets 54)
   )
 
   (page A4)
@@ -144,6 +144,8 @@
   (net 49 "Net-(U4-Pad7)")
   (net 50 "Net-(U4-Pad9)")
   (net 51 "Net-(U4-Pad13)")
+  (net 52 "Net-(U5-Pad3)")
+  (net 53 "Net-(U5-Pad12)")
 
   (net_class Default "This is the default net class."
     (clearance 0.1)
@@ -185,6 +187,8 @@
     (add_net "Net-(U4-Pad6)")
     (add_net "Net-(U4-Pad7)")
     (add_net "Net-(U4-Pad9)")
+    (add_net "Net-(U5-Pad12)")
+    (add_net "Net-(U5-Pad3)")
     (add_net Vcharge)
     (add_net Vconn)
     (add_net Vmin)
@@ -292,7 +296,7 @@
     (fp_text reference C3 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
-    (fp_text value 220n (at 0 0 180) (layer F.SilkS) hide
+    (fp_text value 1u (at 0 0 180) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_line (start -3.556 -1.016) (end 3.556 -1.016) (layer F.SilkS) (width 0.3048))
@@ -2169,7 +2173,7 @@
     (pad 2 thru_hole oval (at -5.08 3.81 270) (size 1.5 2.286) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 38 "Net-(R10-Pad1)"))
     (pad 3 thru_hole oval (at -2.54 3.81 270) (size 1.5 2.286) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
-      (net 1 +12V))
+      (net 52 "Net-(U5-Pad3)"))
     (pad 4 thru_hole oval (at 0 3.81 270) (size 1.5 2.286) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 24 "Net-(C11-Pad1)"))
     (pad 5 thru_hole oval (at 2.54 3.81 270) (size 1.5 2.286) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
@@ -2187,7 +2191,7 @@
     (pad 11 thru_hole oval (at 0 -3.81 270) (size 1.5 2.286) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 38 "Net-(R10-Pad1)"))
     (pad 12 thru_hole oval (at -2.54 -3.81 270) (size 1.5 2.286) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
-      (net 2 -12V))
+      (net 53 "Net-(U5-Pad12)"))
     (pad 13 thru_hole oval (at -5.08 -3.81 270) (size 1.5 2.286) (drill 0.8) (layers *.Cu *.Mask F.SilkS)
       (net 39 "Net-(R15-Pad1)"))
     (pad 14 thru_hole oval (at -7.62 -3.81 270) (size 1.5 2.286) (drill 0.8) (layers *.Cu *.Mask F.SilkS)

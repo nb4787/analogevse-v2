@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AnalogEVSE 2.0.0"
-Date "2018-07-21"
+Date "2019-01-03"
 Rev "2.0.0"
 Comp ""
 Comment1 "Analog J1772 charge controller"
@@ -678,7 +678,7 @@ L AnalogEVSE-rescue:C-RESCUE-AnalogEVSE C3
 U 1 1 5753CE59
 P 5900 1200
 F 0 "C3" H 5900 1300 40  0000 L CNN
-F 1 "220n" H 5906 1115 40  0000 L CNN
+F 1 "1u" H 5906 1115 40  0000 L CNN
 F 2 "mylib:C2" H 5938 1050 30  0001 C CNN
 F 3 "~" H 5900 1200 60  0000 C CNN
 	1    5900 1200
