@@ -58,7 +58,7 @@ ENDDEF
 #
 # AnalogEVSE-rescue_GND-RESCUE-AnalogEVSE
 #
-DEF ~AnalogEVSE-rescue_GND-RESCUE-AnalogEVSE #PWR 0 0 Y Y 1 F P
+DEF AnalogEVSE-rescue_GND-RESCUE-AnalogEVSE #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 0 30 H I C CNN
 F1 "AnalogEVSE-rescue_GND-RESCUE-AnalogEVSE" 0 -70 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
