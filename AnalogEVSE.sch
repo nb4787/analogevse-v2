@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:AnalogEVSE-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AnalogEVSE"
-Date "2019-12-21"
-Rev "2.0.3"
+Date "2021-07-11"
+Rev "2.0.4"
 Comp ""
 Comment1 "Analog J1772 charge controller"
 Comment2 ""
@@ -138,23 +137,23 @@ $EndComp
 $Comp
 L AnalogEVSE-rescue:R-RESCUE-AnalogEVSE R10
 U 1 1 564853D7
-P 3350 4400
-F 0 "R10" V 3430 4400 40  0000 C CNN
-F 1 "10k" V 3357 4401 40  0000 C CNN
-F 2 "mylib:R3.5" V 3280 4400 30  0001 C CNN
-F 3 "~" H 3350 4400 30  0000 C CNN
-	1    3350 4400
+P 3700 4400
+F 0 "R10" V 3780 4400 40  0000 C CNN
+F 1 "10k" V 3707 4401 40  0000 C CNN
+F 2 "mylib:R3.5" V 3630 4400 30  0001 C CNN
+F 3 "~" H 3700 4400 30  0000 C CNN
+	1    3700 4400
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+12V #PWR07
 U 1 1 564853DE
-P 3350 4150
-F 0 "#PWR07" H 3350 4100 20  0001 C CNN
-F 1 "+12V" H 3450 4250 30  0000 C CNN
-F 2 "" H 3350 4150 60  0000 C CNN
-F 3 "" H 3350 4150 60  0000 C CNN
-	1    3350 4150
+P 3700 4150
+F 0 "#PWR07" H 3700 4100 20  0001 C CNN
+F 1 "+12V" H 3800 4250 30  0000 C CNN
+F 2 "" H 3700 4150 60  0000 C CNN
+F 3 "" H 3700 4150 60  0000 C CNN
+	1    3700 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1113,8 +1112,6 @@ F 3 "" H 10100 4350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 4650 3350 4650
-Wire Wire Line
 	2350 5550 2500 5550
 Wire Wire Line
 	2500 4550 2350 4550
@@ -1241,7 +1238,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 800  2100 800 
 Connection ~ 9050 1950
-Connection ~ 3350 4650
 Connection ~ 5000 7000
 Connection ~ 4750 7500
 Connection ~ 9050 1550
@@ -1333,8 +1329,6 @@ Connection ~ 9300 1950
 Wire Wire Line
 	9050 1450 9050 1550
 Connection ~ 5500 5350
-Wire Wire Line
-	3350 4650 3350 5150
 Wire Wire Line
 	2500 5750 2350 5750
 Wire Wire Line
@@ -1763,4 +1757,22 @@ F 3 "" H 8400 3250 60  0000 C CNN
 	1    8400 3250
 	-1   0    0    1   
 $EndComp
+$Comp
+L AnalogEVSE-rescue:R-RESCUE-AnalogEVSE R20
+U 1 1 60EC0875
+P 3450 4650
+F 0 "R20" V 3530 4650 40  0000 C CNN
+F 1 "1k" V 3457 4651 40  0000 C CNN
+F 2 "mylib:R3.5" V 3380 4650 30  0001 C CNN
+F 3 "~" H 3450 4650 30  0000 C CNN
+	1    3450 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 4650 3700 4850
+Wire Wire Line
+	3700 4850 3350 4850
+Wire Wire Line
+	3350 4850 3350 5150
+Connection ~ 3700 4650
 $EndSCHEMATC
